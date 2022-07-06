@@ -20,10 +20,6 @@ h2 {
   font-weight: 700;
   text-decoration: none;
   border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
 }
 section {
   margin-bottom: 8%;
@@ -83,10 +79,6 @@ section {
   border: 2px solid #ff5959;
   background: #ffeeee;
   border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
 }
 .selected-color span {
   color: #ff5959;
@@ -131,15 +123,15 @@ section {
   border-radius: 5px;
 }
 .donate-plan-box img {
- width: 53px;
- height: 53px;
+  width: 53px;
+  height: 53px;
 }
 
 /* section recent-service */
 #recent-service {
   margin: 10% 0;
   background: #7ee4b9;
-  height: 610px;
+  height: 700px;
 }
 #recent-service h2 {
   text-align: center;
@@ -150,14 +142,27 @@ section {
   display: flex;
   margin-left: 80px;
 }
-.service {
+.selected-service {
+  border: 5px solid #ff5959;
+  border-radius: 5px;
+}
+.pair-btn {
+  margin-top: 60px;
+  margin-left: 585px;
+}
+.pair-btn-margin {
   margin-left: 20px;
+}
+.service {
+  margin-left: 32px;
 }
 .service img {
   border-radius: 4px;
   width: 360px;
   height: 290px;
 }
+
+/* section subscription */
 .email-box {
   display: flex;
   margin: 65px 290px;
