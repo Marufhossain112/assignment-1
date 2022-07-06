@@ -28,10 +28,10 @@ h2 {
 section {
   margin-bottom: 8%;
 }
-.donation-header {
+.common-header {
   text-align: center;
 }
-.donation-para {
+.common-para {
   color: #707070;
   font-size: 20px;
   margin: 0% 28%;
@@ -102,7 +102,6 @@ section {
   margin: 0 600px;
 }
 
-
 /* section .donate-plan */
 .pink-color {
   margin: 0px 25px;
@@ -127,8 +126,38 @@ section {
   padding-top: 70px;
   padding-left: 25px;
   border-radius: 5px;
-
 }
+
+/* section more-service */
+#more-service {
+  margin: 10% 0;
+  background: #7ee4b9;
+  height: 550px;
+}
+#more-service h2 {
+  text-align: center;
+  display: inline-block;
+  margin: 70px 433px;
+}
+#services-parent{
+  display: flex;
+  margin-left: 80px;
+}
+.service{
+ margin-left: 20px;
+}
+.service img{
+  border-radius: 4px;
+  width: 360px;
+  height: 290px;
+ 
+}
+
+
+
+
+
+
 
 
 /* footer */
