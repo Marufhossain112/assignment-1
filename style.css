@@ -99,7 +99,10 @@ section {
   margin-bottom: 40px;
 }
 .donation-btn {
-  margin-left:550px;
+  margin-left: 550px;
+}
+.donation-input-amount {
+  margin-left: 50px;
 }
 
 /* section .donate-plan */
@@ -127,17 +130,21 @@ section {
   padding-left: 25px;
   border-radius: 5px;
 }
+.donate-plan-box img {
+ width: 53px;
+ height: 53px;
+}
 
-/* section more-service */
-#more-service {
+/* section recent-service */
+#recent-service {
   margin: 10% 0;
   background: #7ee4b9;
   height: 610px;
 }
-#more-service h2 {
+#recent-service h2 {
   text-align: center;
   display: inline-block;
-  margin: 70px 373px;
+  margin: 70px 420px;
 }
 #services-parent {
   display: flex;
@@ -153,7 +160,7 @@ section {
 }
 .email-box {
   display: flex;
-  margin: 65px 230px;
+  margin: 65px 290px;
   width: 800px;
   height: 200px;
   background: #fff4d6;
@@ -183,13 +190,11 @@ footer {
 .footer-span {
   font-size: 33px;
   margin-top: 52px;
-  margin-left: 505px;
+  margin-left: 570px;
   color: #ff5959;
   display: inline-block;
 }
 .footer-para {
   color: white;
-  margin-top: 25px;
-  margin-left: 535px;
-  display: inline-block;
+  margin-left: 595px;
 }
