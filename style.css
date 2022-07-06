@@ -38,7 +38,7 @@ section {
 }
 
 /* section top-header */
-.top-header {
+#top-header {
   background-image: linear-gradient(
       to bottom,
       rgba(18, 18, 18, 0),
@@ -60,7 +60,7 @@ section {
 }
 
 /* section donation-amount */
-.donation-money {
+#donation-money {
   display: flex;
   margin-top: 70px;
   margin-left: 250px;
